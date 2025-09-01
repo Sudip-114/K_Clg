@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #2b9348;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar ul li {
+  cursor: pointer;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+.create-post {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: #2b9348;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.login-form {
+  max-width: 300px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+.login-form button {
+  padding: 8px 15px;
+  background: #2b9348;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
